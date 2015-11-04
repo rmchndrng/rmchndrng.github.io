@@ -33,6 +33,7 @@ Extract the Ruby Dev kit to a specific folder and associated with the Ruby insta
 	cd C:\RubyDevKit
     ruby dk.rb init
     ruby dk.rb install
+    
 **Step 2: Install Jekyll Gem**
 
     gem install jekyll
