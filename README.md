@@ -1,42 +1,9 @@
-# Paper for Jekyll
-A new material design utilising theme for your Jekyll blog. Built on [Material Design Lite](http://www.getmdl.io/).
+# The Plain v1
 
-![screenshot](assets/screenshots/mockup.jpg)
+A minimalist Jekyll theme, made with passion for simplicity by [Heiswayi Nrird](http://heiswayi.github.io). More details about it [**here**](http://heiswayi.github.io/the-plain.html); **theme description**, **screenshot**, **install instructions** and **demo link**.
 
-## Demo
- [dbtek.github.io/paper-demo](http://dbtek.github.io/paper-demo)
+## Credits
 
-### Batteries Included
-There are many cool features bundled with Paper such as:
+This theme is based on Leonard Lamprecht's [Jekyll theme][1] and released under [MIT license](LICENSE).
 
-- Full Github Pages support.
-- Responsive layout.
-- Dynamic search with [jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search/).
-- Customizable theme colors.
-- Sass variables.
-- RSS feed.
-- Post tags and categories.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
-
-### Tech
-Under the hood Paper contains:  
-- Material Design Lite.
-- CoffeeScript.
-- Sass.
-
-### Install
-Easiest way of getting Paper work is forking.
-
-- Fork the [repo](https://github.com/dbtek/paper).
-- Rename forked repo as `username.github.io`.
-- Set up blog by editing `_config.yml`.
-- Enjoy.
-
-### Author
-Ismail Demirbilek
-[@dbtek](https://twitter.com/dbtek)
-
-### License
-[MIT](http://opensource.org/licenses/MIT)
+[1]: https://github.com/leo/leo.github.io

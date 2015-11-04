@@ -1,38 +1,55 @@
-# Site settings
-title: Paper Theme
-description: > # this means to ignore newlines until "baseurl:"
-  A gentle theme for Jekyll utilising material design.
-baseurl: "/" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
+# Site Info
+title:              "Ramachandran G"
+description:        "I am Ramachandran G, a Software Engineer from Bangalore, India"
+google_verify:      eWbOjKfFy1mFkpTYKh7q0Jq3jeL5Wxmv4E7HcN-UED0 # Put your Google Verification here
+google_analytics:   UA-55163627-1 # Put your Google Analytics code
 
-# Build settings
-markdown: kramdown
-paginate: 5 # pagination based on number of posts
-paginate_path: "page/:num"
-highlighter: pygments
+# Author Info
+author_name:        "Ramachandran G"
+author_email:       g.rmchndrn@gmail.com
+author_gravatar:    3fe46ebb372a6c3b17b0786ac74b88c9 # Gravatar md5 hash
+twitter_username:   rmchndrng
 
-# comments
-disqus: # add disqus shortname here
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:title # Post permalink
+timezone:           Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# author info
-# add your appropriate info here
-author: # your name
-bio:    # your bio
-email:
-email_md5: # md5 hash of your email
-twitter_username:
-github_username:
+# Site Build
+highlighter:        pygments
+#markdown:           redcarpet
+#redcarpet:
+#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
 
-# Theming options
-# These settings are mandatory.
-theme:              'blue-pink'
-# drawer theming
-drawer:
-  text_color:       'grey-600'
-  header_color:     'blue-500'
-  navigation_color: 'grey-200'
-# footer theming
-footer:
-  text_color: 'blue-grey-200'
-  color: 'blue-grey-600'
-gems:      [jekyll-paginate]
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
