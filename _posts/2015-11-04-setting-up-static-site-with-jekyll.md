@@ -1,6 +1,3 @@
----
-comments: true
----
 **Setting up your own static website for free (Github pages + Jekyll)**
 ===================================================================
 As a programmer, everyone has the urge to showcase their talent, skills and work online. The various platforms available for them to accomplish this is via Github, StackOverflow, Coding problem sites (Topcoder, CodeMonk, HackerEarth, CodeChef, HackerRank etc), blogs and by maintaining their own website.
