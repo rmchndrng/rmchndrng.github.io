@@ -22,6 +22,19 @@ It is always useful to open the terminal/cmd along with it, since we will be run
 
 ![Initial State]({{site.baseurl}}/assets/imgs/xpressng2tsseed/1.jpg)
 
+Initialize the project for NPM 
+
+```npm init
+
+
+
+
+
+
+
+
+
+
 
 
 
