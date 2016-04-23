@@ -44,7 +44,7 @@ It is always useful to open the terminal/cmd along with it, since we will be run
 
 This will initialize the package.json which will be used by npm. You can provide the values as they are prompted or continue with the defaults.(By pressing Enther key)
 
-![npm init]({{site.baseurl}}/assets/imgs/xpressng2tsseed/2.jpg)
+![npm init]({{site.baseurl}}/assets/imgs/xpressng2tsseed/2.JPG)
 
 
 ----------
@@ -206,7 +206,7 @@ At this stage, there will be typescript compilation errors in our serverApp.ts f
 
 If you go to the definition of Express or Response in index.d.ts typing, you can see they are interfaces which extends core.Express and core.Response. "core" is being imported from "express-serve-static-core" module, which is shown as missing. 
 
-![core missing]({{site.baseurl}}/assets/imgs/xpressng2tsseed/4.jpg)
+![core missing]({{site.baseurl}}/assets/imgs/xpressng2tsseed/4.JPG)
 
 
 ----------
@@ -215,7 +215,7 @@ If you go to the definition of Express or Response in index.d.ts typing, you can
 ##### Reason
 When we ran the typings install for express, the output would have been the following.
 
-![Typings stripped]({{site.baseurl}}/assets/imgs/xpressng2tsseed/3.jpg)
+![Typings stripped]({{site.baseurl}}/assets/imgs/xpressng2tsseed/3.JPG)
 
 When you install any ambient typing, you might end up seeing "typings INFO reference Stripped reference "XXXX/xxx/d.ts" during installation from "YYYY"
 
@@ -355,7 +355,7 @@ Now try running the task by pressing "Ctrl+Shift+B".
 	Finished 'default' after 6.53 μs
 
 As a result, the compiled javascript files with sourcemaps concatenated would been generated besides the typescript files.
-![Build success]({{site.baseurl}}/assets/imgs/xpressng2tsseed/5.jpg)
+![Build success]({{site.baseurl}}/assets/imgs/xpressng2tsseed/5.JPG)
 
 ----------
 
@@ -383,7 +383,7 @@ Add the following in the file and save.
 	
 Now all the javascript files with same name having extension "ts" will be hidden from the workspace.
 
-![JS Hidden from WS]({{site.baseurl}}/assets/imgs/xpressng2tsseed/6.jpg)
+![JS Hidden from WS]({{site.baseurl}}/assets/imgs/xpressng2tsseed/6.JPG)
 
 ### Run the application
 
@@ -391,11 +391,11 @@ Open command window in the "server" folder and run
 
 	node index.js
 	
-![App run]({{site.baseurl}}/assets/imgs/xpressng2tsseed/7.jpg)
+![App run]({{site.baseurl}}/assets/imgs/xpressng2tsseed/7.JPG)
 
 Open your browser and navigate to localhost:5000
 
-![App run]({{site.baseurl}}/assets/imgs/xpressng2tsseed/8.jpg)
+![App run]({{site.baseurl}}/assets/imgs/xpressng2tsseed/8.JPG)
 
 ## Conclusion
 
