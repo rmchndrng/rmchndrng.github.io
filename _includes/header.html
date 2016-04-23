@@ -1,9 +1,10 @@
 <aside class="logo">
+	
 
-	{% if page.url == '/index.html' || page.url == '/' %}
+	{% if page.url == '/' %}
 		{% assign link = '/about' %}
 		{% assign prompt = 'About the Author' %}
-	{% else %}
+	{% else %}	
 		{% assign link = '/' %}
 		{% assign prompt = 'Back to Home' %}
 	{% endif %}
