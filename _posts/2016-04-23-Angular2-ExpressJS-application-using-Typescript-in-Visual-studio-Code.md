@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Setting up an Angular2 application which uses ExpressJS (Written in Typescript using Visual Studio Code)
 
@@ -24,21 +24,7 @@ It is always useful to open the terminal/cmd along with it, since we will be run
 
 Initialize the project for NPM 
 
-```npm init
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'''
+npm init
+'''
 
