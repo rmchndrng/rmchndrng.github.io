@@ -9,12 +9,6 @@ body {
     padding: 35px 50px;
   }
 }
-h2,
-h3,
-h4,
-h5 {
-  margin: 45px 0 25px;
-}
 img {
   max-width: 100%;
 }
@@ -182,9 +176,7 @@ iframe {
   margin: 45px 0 !important;
 }
 ul,
-ol {
-  margin: 40px 0;
-  padding-left: 50px;
+ol {  
   li {
     word-wrap: break-word;
   }
@@ -273,8 +265,7 @@ article {
     border-bottom: 1px solid #000;
     margin: 30px 0;
   }
-  p {
-    font-size: 15px;
+  p {    
     line-height: 1.9em;
     word-wrap: break-word;
   }
@@ -305,7 +296,7 @@ article {
   }
 }
 section {
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
   ul {
     list-style: none;
