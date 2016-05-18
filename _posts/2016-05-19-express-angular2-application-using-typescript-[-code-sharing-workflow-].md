@@ -10,7 +10,7 @@ This is Part 3 of a series of journals (Express Angular2 application using Types
 The code can be found here. [https://github.com/rmchndrng/XprssNg2TSSeed](https://github.com/rmchndrng/XprssNg2TSSeed)
 
 Part 1 - [Hello World]({{site.baseurl}}/2016/04/23/express-angular2-application-using-typescript-server-setup.html)
-Part 2 - [Angular2 App]({{site.baseurl}}/2016/05/18/express-angular2-application-using-typescript-angular2-application.html)
+Part 2 - [Angular2 App]({{site.baseurl}}/2016/05/18/express-angular2-application-using-typescript-Angular2-application.html)
 
 
 ----------
