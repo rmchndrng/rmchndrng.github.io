@@ -96,7 +96,7 @@ This will initialize the folder for typings with "typings.json" config file.
 
 Add a new file by the name **"tsconfig.json"**. This file will hold the configuration used for compiling typescript.
 
-	server/	tsconfig.json
+	server/tsconfig.json
 	
 	{
 	    "compilerOptions": {
