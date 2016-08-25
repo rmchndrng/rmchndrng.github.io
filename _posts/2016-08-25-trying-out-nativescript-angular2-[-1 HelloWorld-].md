@@ -6,11 +6,11 @@
 
 ## Trying out NativeScript with Angular2 - HelloWorld Notes
 
-Ref - http://docs.nativescript.org/angular/tutorial/ng-chapter-0
+Ref - [http://docs.nativescript.org/angular/tutorial/ng-chapter-0](http://docs.nativescript.org/angular/tutorial/ng-chapter-0)
 
 ## Installation
 
-Ref - http://docs.nativescript.org/angular/start/quick-setup
+Ref - [http://docs.nativescript.org/angular/start/quick-setup](http://docs.nativescript.org/angular/start/quick-setup)
 
 ### Installing NativeScript
 
@@ -26,7 +26,7 @@ Ref - http://docs.nativescript.org/angular/start/quick-setup
 
 ## Creating a blank application with Angular2 template
 
-Ref - http://docs.nativescript.org/angular/tutorial/ng-chapter-1
+Ref - [http://docs.nativescript.org/angular/tutorial/ng-chapter-1](http://docs.nativescript.org/angular/tutorial/ng-chapter-1)
 
         tns create --ng TnsNg2
 
@@ -36,7 +36,7 @@ Ref - http://docs.nativescript.org/angular/tutorial/ng-chapter-1
 
 ### Setting up Android Virtual Device(AVD)
 
-Ref -http://developer.telerik.com/featured/using-android-emulator-hybrid-mobile-apps-telerik-appbuilder/#android
+Ref - [http://developer.telerik.com/featured/using-android-emulator-hybrid-mobile-apps-telerik-appbuilder/#android](http://developer.telerik.com/featured/using-android-emulator-hybrid-mobile-apps-telerik-appbuilder/#android)
 
 >Add the path of your Android SDK tools folder to the Path Environment variable.
 
@@ -47,7 +47,7 @@ Ref -http://developer.telerik.com/featured/using-android-emulator-hybrid-mobile-
 >To manage AVDs, run the following in cmd
 
         android avd
-        
+
 > Add a new AVD
 
 #### Install Intel HAXM
@@ -60,7 +60,7 @@ Ref -http://developer.telerik.com/featured/using-android-emulator-hybrid-mobile-
 
 >Download the x86 Atom System Images and the Intel Hardware Accelerated Execution Manager Driver using Android SDK Manager.
 
-Ref - http://stackoverflow.com/a/13856866/2382414
+Ref - [http://stackoverflow.com/a/13856866/2382414](http://stackoverflow.com/a/13856866/2382414)
 
 ### Running the application
 
