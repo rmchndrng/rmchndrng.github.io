@@ -43,9 +43,11 @@ Ref -http://developer.telerik.com/featured/using-android-emulator-hybrid-mobile-
 >To open Android SDK manager, run the following in cmd
         
         android
+
 >To manage AVDs, run the following in cmd
 
         android avd
+        
 > Add a new AVD
 
 #### Install Intel HAXM
